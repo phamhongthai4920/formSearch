@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49px;
+    box-shadow:
+    #051933 0px 1px 4px 0px;
+    z-index: 1;
+}
+.navbar-left {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.navbar-left li {
+    display: flex;
+    align-items:center;
+}
+.navbar-left li a {
+    text-decoration: none;
+    font-size: 14px;
+   
+}
+.navbar-right {
+    display: flex;
+    align-items:center;
+    list-style: none;
+    
+}
+.navbar-right a {
+    font-size: 14px;
+
+    text-decoration: none;
+}
+.navbar-right li {
+    padding: 0 8px;
+}
